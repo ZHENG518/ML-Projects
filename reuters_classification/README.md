@@ -14,7 +14,7 @@
 
 - longest: 3417 words, shortest: 10 words, average length: 159.52
 
-  <img src="imgs/image-20210623180718916.png" alt="image-20210623180718916" style="zoom: 33%;" /><img src="imgs/image-20210623181655829.png" alt="image-20210623181655829" style="zoom:33%;" />
+  <img src="imgs/image-20210623180718916.png" alt="image-20210623180718916" width="300" /><img src="imgs/image-20210623181655829.png" alt="image-20210623181655829" width="300" />
 
 ### ML methods
 
