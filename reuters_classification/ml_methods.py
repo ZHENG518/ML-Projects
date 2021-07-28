@@ -3,7 +3,6 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from collections import Counter
 import numpy as np
 
-import nltk
 # nltk.download('stopwords')
 from nltk.corpus import stopwords
 stopwords = stopwords.words('english')
@@ -11,7 +10,7 @@ stopwords = stopwords.words('english')
 import gensim
 from gensim import corpora
 import logging
-import operator
+
 # for gensim to output some progress information while it's training
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -102,7 +101,7 @@ if __name__ == '__main__':
     from sklearn.svm import LinearSVC
     from sklearn.model_selection import cross_val_predict
     from sklearn.metrics import accuracy_score, classification_report
-    from util import load_data
+    from src.util import load_data
 
     train_text, train_label, test_text, test_label = load_data()
     # train_x, test_x = bag_of_words(train_text, test_text)
